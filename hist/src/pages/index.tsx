@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar";
+import HomePage from "./components/HomePage";
 import Head from "next/head";
 
 export default function Home() {
@@ -25,7 +26,7 @@ export default function Home() {
         <meta property="twitter:description" content="Connecting Users with Providers" />
       </Head>
       <NavBar/>
-      
+      <HomePage/>
     </main>
   )
 }

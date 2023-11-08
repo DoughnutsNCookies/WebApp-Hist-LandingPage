@@ -7,7 +7,7 @@
   :root {
     @apply scrollbar-hide;
     --text-color: #242424;
-    --background-color: #FFFFFF;
+    --background-color: #F8FCFA;
     --primary-color: #9BC9F8;
     --secondary-color: #9FF9F9;
     --accent-color: #0B66C1;

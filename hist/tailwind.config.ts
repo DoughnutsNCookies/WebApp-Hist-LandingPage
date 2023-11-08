@@ -25,7 +25,7 @@ const config: Config = {
         title: "title 3s ease-out forwards",
         "fade-left": "fade-left 3s ease-in-out forwards",
         "fade-right": "fade-right 3s ease-in-out forwards",
-        "fade-down": "fade-down 3s ease-in-out forwards",
+        "fade-down": "fade-down 2s ease-in-out forwards",
       },
       keyframes: {
         "fade-in": {
