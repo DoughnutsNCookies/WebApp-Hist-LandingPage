@@ -1,4 +1,4 @@
-const HomePage = () => {
+const HomeSection = () => {
     return (
         <section id="home">
             <div className="h-screen w-screen flex flex-col text-center justify-center">
@@ -19,4 +19,4 @@ const HomePage = () => {
     )
 }
 
-export default HomePage
+export default HomeSection

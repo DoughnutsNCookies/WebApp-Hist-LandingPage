@@ -34,12 +34,12 @@ const NavBar = () => {
         <li>
           <button
             className="hover:text-accentColor transition-all scale-100 hover:scale-105"
-            // onClick={(e) => {
-            //   setNavVisible(true);
-            //   document
-            //     .getElementById("home")
-            //     ?.scrollIntoView({ behavior: "smooth" });
-            // }}
+            onClick={(e) => {
+              setNavVisible(true);
+              document
+                .getElementById("home")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
           >
             <Image
               src="/hist.webp"
@@ -55,15 +55,12 @@ const NavBar = () => {
           <li>
             <button
               className="hover:text-accentColor transition-all scale-100 hover:scale-105 font-bold underline"
-              // onClick={(e) => {
-              //   document
-              //     .getElementById("About Us")
-              //     ?.scrollIntoView({ behavior: "smooth" });
-              //   setNavVisible(false);
-              //   setTimeout(() => {
-              //     window.scrollTo(0, window.innerHeight * 2);
-              //   }, 300);
-              // }}
+              onClick={(e) => {
+                document
+                  .getElementById("about")
+                  ?.scrollIntoView({ behavior: "smooth" });
+                setNavVisible(false);
+              }}
             >
               About Us
             </button>
