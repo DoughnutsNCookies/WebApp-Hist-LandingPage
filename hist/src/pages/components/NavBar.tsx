@@ -25,7 +25,7 @@ const NavBar = () => {
 
   return (
     <nav
-      className={`z-20 fixed top-0 w-full ${
+      className={`z-20 fixed top-0 w-full bg-backgroundColor ${
         firstLoad ? "animate-fade-down" : "transition-all"
       }`}
       style={navbarStyle}
@@ -68,14 +68,12 @@ const NavBar = () => {
           <li>
             <button
               className="hover:text-accentColor transition-all scale-100 hover:scale-105 font-bold underline"
-              // onClick={(e) => {
-              //   setTimeout(() => {
-              //     setNavVisible(false);
-              //   }, 1000);
-              //   document
-              //     .getElementById("Be Our Providers")
-              //     ?.scrollIntoView({ behavior: "smooth" });
-              // }}
+              onClick={(e) => {
+                document
+                  .getElementById("reshaping")
+                  ?.scrollIntoView({ behavior: "smooth" });
+                setNavVisible(false);
+              }}
             >
               Be Our Providers
             </button>

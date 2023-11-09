@@ -3,7 +3,7 @@ import Image from 'next/image'
 const AboutSection = () => {
     return (
         <section id="about">
-            <div className="h-screen flex flex-col items-center text-center justify-center">
+            <div className="h-screen flex flex-col items-center text-center justify-center gap-y-10">
                 <div className="pb-10 flex flex-col gap-y-4">
                     <p className="text-lg">
                         We focus on <strong className="text-4xl">ACCESSIBILITY</strong>

@@ -2,6 +2,7 @@ import NavBar from "./components/NavBar";
 import AboutSection from "./sections/AboutSection";
 import HomeSection from "./sections/HomeSection";
 import Head from "next/head";
+import ReshapingSection from "./sections/ReshapingSection";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
       <NavBar/>
       <HomeSection/>
       <AboutSection/>
+      <ReshapingSection/>
     </main>
   )
 }
