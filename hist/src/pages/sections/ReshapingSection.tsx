@@ -14,7 +14,7 @@ const ReshapingSection = () => {
                             alt="Image Reshaping Healthcare Accessibility"
                             width={1000}
                             height={1000}
-                            className="h-[30vh] mt-10 border-4 border-primaryColor rounded-xl object-cover"
+                            className="w-[90vw] h-[30vh] mt-10 border-4 border-primaryColor rounded-xl object-cover"
                             style={{
                                 objectPosition: "0% 30%"
                             }}
