@@ -3,6 +3,7 @@ import AboutSection from "./sections/AboutSection";
 import HomeSection from "./sections/HomeSection";
 import Head from "next/head";
 import ReshapingSection from "./sections/ReshapingSection";
+import VisionSection from "./sections/VisionSection";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
       <HomeSection/>
       <AboutSection/>
       <ReshapingSection/>
+      {/* <VisionSection/> */}
     </main>
   )
 }
