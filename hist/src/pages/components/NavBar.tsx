@@ -51,8 +51,8 @@ const NavBar = () => {
               />              
           </button>
         </li>
-        <div className="flex flex-row justify-center gap-x-20">
-          <li>
+        <li className="flex flex-row justify-center gap-x-20">
+          <div>
             <button
               className="hover:text-accentColor transition-all scale-100 hover:scale-105 font-bold underline"
               onClick={(e) => {
@@ -64,8 +64,8 @@ const NavBar = () => {
             >
               About Us
             </button>
-          </li>
-          <li>
+          </div>
+          <div>
             <button
               className="hover:text-accentColor transition-all scale-100 hover:scale-105 font-bold underline"
               onClick={(e) => {
@@ -77,8 +77,8 @@ const NavBar = () => {
             >
               Be Our Providers
             </button>
-          </li>
-        </div>
+          </div>
+        </li>
       </ul>
     </nav>
   );
