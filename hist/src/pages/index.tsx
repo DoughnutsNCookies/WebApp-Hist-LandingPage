@@ -2,6 +2,7 @@ import Head from "next/head";
 import NavBar from "./components/NavBar";
 import Tagline from "./index/Tagline";
 import Problem from "./index/Problem";
+import Understand from "./index/Understand";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
       <NavBar/>
       <Tagline/>
       <Problem/>
+      <Understand/>
     </main>
   )
 }
