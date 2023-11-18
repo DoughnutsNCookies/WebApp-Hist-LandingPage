@@ -7,7 +7,7 @@ const Terms = () => {
     return (
         <main>
             <Head>
-                <title>Hist Terms of Use</title>
+                <title>Hist Privacy Policy</title>
                 <meta name="title" content="Hist" />
                 <meta name="description" content="Connecting Users with Providers" />
                 <meta name="keywords" content="hist healtcare booking" />
