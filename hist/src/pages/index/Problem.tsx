@@ -14,7 +14,7 @@ const Problem = () => {
                     priority
                 />
                 <div className="bg-[#083B64] w-[50vw] flex flex-col pl-20 items-start justify-center gap-y-4">
-                    <h1 className="text-6xl tracking-tight font-bold font-playfair text-backgroundColor">
+                    <h1 className="text-6xl tracking-tight font-bold text-backgroundColor">
                         Have you been in a situation where:
                     </h1>
                     <ul>
@@ -78,7 +78,7 @@ const Pointers = (props: PointerProps) => {
                     />
                 </g>
             </svg>
-            <p className="text-2xl font-lato text-backgroundColor">
+            <p className="text-2xl text-backgroundColor">
                 {text}
             </p>
         </li>

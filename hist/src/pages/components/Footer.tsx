@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <footer id="footer">
-            <div className="w-full h-[10vh] bg-[#0156B4] flex flex-row px-20 justify-between items-center text-backgroundColor font-lato">
+            <div className="w-full h-[10vh] bg-[#0156B4] flex flex-row px-20 justify-between items-center text-backgroundColor ">
                 <p className="text-xl">© hist 2023</p>
                 <div className="flex flex-row justify-center items-center gap-x-10">
                     <div className="flex flex-row justify-between items-center gap-x-4">
@@ -40,7 +40,7 @@ const LegalLink = (props: LegalLinkProps) => {
 const FacebookIcon = () => {
     return (
         <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-8 hover:scale-110 transition-all">
-            <g clip-path="url(#clip0_142_89)">
+            <g clipPath="url(#clip0_142_89)">
                 <path d="M49.0061 24.6531C49.0061 11.0373 38.0363 0 24.5061 0C10.9699 0.0030625 0 11.0373 0 24.6562C0 36.9583 8.96088 47.1564 20.6719 49.0061V31.7796H14.455V24.6562H20.678V19.2202C20.678 13.0432 24.3377 9.63156 29.9329 9.63156C32.6156 9.63156 35.4178 10.1124 35.4178 10.1124V16.1761H32.3278C29.2867 16.1761 28.3373 18.0779 28.3373 20.0287V24.6531H35.1299L34.0458 31.7765H28.3342V49.0031C40.0452 47.1533 49.0061 36.9552 49.0061 24.6531Z" fill="white"/>
             </g>
             <defs>

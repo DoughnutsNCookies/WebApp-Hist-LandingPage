@@ -4,12 +4,12 @@ const Focus = () => {
     return (
         <section id="focus">
             <div className="flex flex-col items-center text-center justify-center gap-y-10 p-20 bg-white">
-                <div className="flex flex-col gap-y-4 font-lato">
+                <div className="flex flex-col gap-y-4 ">
                     <p className="text-2xl">
                         We focus on <strong className="pl-4 text-6xl text-transparent bg-clip-text bg-gradient-to-r from-[#DB1E1A] to-accentColor">ACCESSIBILITY</strong>
                     </p>
                     <p className="text-2xl">which means</p>
-                    <strong className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-[#46CCF6] to-[#4AC851]">Simplicity + Efficiency</strong>
+                    <strong className="text-6xl pb-2 text-transparent bg-clip-text bg-gradient-to-r from-[#46CCF6] to-[#4AC851]">Simplicity + Efficiency</strong>
                 </div>
                 <LeftWidget
                     title="User-friendly Interface"
@@ -55,8 +55,8 @@ const LeftWidget = (props: LeftWidgetProps) => {
                 priority
             />
             <div className="text-start w-[40%]">
-                <h1 className="font-bold font-playfair text-4xl">{title}</h1>
-                <p className="text-2xl font-lato">{description}</p>
+                <h1 className="font-bold text-4xl">{title}</h1>
+                <p className="text-2xl ">{description}</p>
             </div>
         </div>
     )
@@ -75,8 +75,8 @@ const RightWidget = (props: RightWidgetProps) => {
     return (
         <div className="flex flex-row w-full gap-40 justify-center items-center">
             <div className="text-start w-[40%]">
-                <h1 className="font-bold font-playfair text-4xl">{title}</h1>
-                <p className="text-2xl font-lato">{description}</p>
+                <h1 className="font-bold text-4xl">{title}</h1>
+                <p className="text-2xl ">{description}</p>
             </div>
             <Image
                 src={image}

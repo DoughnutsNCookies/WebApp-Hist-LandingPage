@@ -17,8 +17,7 @@ const config: Config = {
         accentColor: "var(--accent-color)",
       },
       fontFamily: {
-        playfair: ["Playfair Display"],
-        lato: ["Lato"],
+        inter: ["Inter"]
       },
       animation: {
         "fade-in": "fade-in 3s ease-in-out forwards",
