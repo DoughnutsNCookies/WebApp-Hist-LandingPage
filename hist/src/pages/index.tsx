@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import Tagline from "./index/Tagline";
 import Problem from "./index/Problem";
 import Understand from "./index/Understand";
+import Focus from "./index/Focus";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
       <Tagline/>
       <Problem/>
       <Understand/>
+      <Focus/>
     </main>
   )
 }
