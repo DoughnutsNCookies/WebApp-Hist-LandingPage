@@ -34,12 +34,16 @@ const NavBar = () => {
         <li>
           <button
             className="hover:text-accentColor transition-all scale-100 hover:scale-105"
-            // onClick={(e) => {
-            //   setNavVisible(true);
-            //   document
-            //     .getElementById("home")
-            //     ?.scrollIntoView({ behavior: "smooth" });
-            // }}
+            onClick={(e) => {
+              setNavVisible(true);
+              if (window.location.pathname === "/") {
+                document
+                  .getElementById("tagline")
+                  ?.scrollIntoView({ behavior: "smooth" });
+              } else {
+                window.location.href = "/";
+              }
+            }}
           >
             <Image
               src="/hist.webp"
