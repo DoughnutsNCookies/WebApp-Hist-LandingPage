@@ -7,7 +7,7 @@ const Footer = () => {
                     <div className="flex flex-row justify-between items-center gap-x-4">
                         <LegalLink text={"Terms of Use"} href={"/terms"}/>
                         <div className="border-x border-white h-6"/>
-                        <LegalLink text={"Privacy Policy"} href={"/terms"}/>
+                        <LegalLink text={"Privacy Policy"} href={"/privacy"}/>
                     </div>
                     <div className="flex flex-row justify-center items-center gap-x-2">
                         <FacebookIcon/>
