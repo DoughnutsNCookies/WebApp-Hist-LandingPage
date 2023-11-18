@@ -4,6 +4,7 @@ import Tagline from "./index/Tagline";
 import Problem from "./index/Problem";
 import Understand from "./index/Understand";
 import Focus from "./index/Focus";
+import Mobile from "./index/Mobile";
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
       <Problem/>
       <Understand/>
       <Focus/>
+      <Mobile/>
     </main>
   )
 }
