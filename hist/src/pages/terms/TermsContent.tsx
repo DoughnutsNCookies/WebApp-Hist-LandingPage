@@ -4,7 +4,7 @@ const TermsContent = () => {
             <div className="pt-32 p-20 flex flex-col justify-center items-center gap-y-10">
                 <h1 className="font-playfair font-bold text-6xl">Terms of Use</h1>
                 <div className="border-y border-black w-full"/>
-                <div>
+                <div className="h-screen">
                     Terms of use should be here
                 </div>
             </div>

@@ -1,5 +1,4 @@
 import Head from "next/head";
-
 import NavBar from "./components/NavBar"
 import Footer from "./components/Footer"
 import TermsContent from "./terms/TermsContent";
@@ -29,7 +28,7 @@ const Terms = () => {
             </Head>
             <NavBar/>
             <TermsContent/>
-            {/* <Footer/> */}
+            <Footer/>
         </main>
     )
 }
