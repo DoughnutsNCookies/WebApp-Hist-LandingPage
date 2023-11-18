@@ -27,12 +27,12 @@ const Understand = () => {
                     />
                 </div>
             </div>
-            <div className="h-[15vh] w-[100vw] bg-accentColor flex flex-row justify-center items-center gap-x-20">
-                <h1 className="font-playfair font-bold text-4xl text-backgroundColor">
+            <div className="h-[15vh] w-[100vw] bg-accentColor flex flex-row justify-between items-center gap-x-20">
+                <h1 className="font-playfair font-bold text-4xl p-20 text-backgroundColor">
                     We&apos;re here to empower you on your health journey.
                 </h1>
                 <div className="flex flex-row justify-center items-center">
-                    <button className="bg-primaryColor py-5 px-10 rounded-3xl text-accentColor font-lato font-bold text-2xl hover:scale-110 transition-all">
+                    <button className="bg-primaryColor py-5 px-10 m-20 rounded-3xl text-accentColor font-lato font-bold text-2xl hover:scale-110 transition-all">
                         Get Started Now
                     </button>
                 </div>

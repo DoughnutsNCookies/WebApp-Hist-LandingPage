@@ -5,6 +5,7 @@ import Problem from "./index/Problem";
 import Understand from "./index/Understand";
 import Focus from "./index/Focus";
 import Mobile from "./index/Mobile";
+import Interest from "./index/Interest";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
       <Understand/>
       <Focus/>
       <Mobile/>
+      <Interest/>
     </main>
   )
 }
