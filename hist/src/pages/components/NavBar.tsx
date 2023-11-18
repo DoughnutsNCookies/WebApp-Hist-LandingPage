@@ -30,16 +30,16 @@ const NavBar = () => {
       }`}
       style={navbarStyle}
     >
-      <ul className="flex flex-row py-4 justify-between items-center pl-6 pr-20 gap-x-3 md:gap-x-10 lg:gap-x-20 text-xs md:text-lg lg:text-2xl">
+      <ul className="flex flex-row py-4 justify-between items-center pl-6 pr-20 gap-x-3 lg:gap-x-20 text-xs md:text-lg lg:text-2xl">
         <li>
           <button
             className="hover:text-accentColor transition-all scale-100 hover:scale-105"
-            onClick={(e) => {
-              setNavVisible(true);
-              document
-                .getElementById("home")
-                ?.scrollIntoView({ behavior: "smooth" });
-            }}
+            // onClick={(e) => {
+            //   setNavVisible(true);
+            //   document
+            //     .getElementById("home")
+            //     ?.scrollIntoView({ behavior: "smooth" });
+            // }}
           >
             <Image
               src="/hist.webp"
@@ -51,29 +51,43 @@ const NavBar = () => {
               />              
           </button>
         </li>
+        
         <li className="flex flex-row justify-center gap-x-20">
           <div>
             <button
-              className="hover:text-accentColor transition-all scale-100 hover:scale-105 font-bold underline"
-              onClick={(e) => {
-                document
-                  .getElementById("about")
-                  ?.scrollIntoView({ behavior: "smooth" });
-                setNavVisible(false);
-              }}
+              className="hover:text-accentColor transition-all scale-100 hover:scale-105 font-bold underline py-4"
+              // onClick={(e) => {
+              //   document
+              //     .getElementById("about")
+              //     ?.scrollIntoView({ behavior: "smooth" });
+              //   setNavVisible(false);
+              // }}
+            >
+              Contact Us
+            </button>
+          </div>
+          <div>
+            <button
+              className="hover:text-accentColor transition-all scale-100 hover:scale-105 font-bold underline py-4"
+              // onClick={(e) => {
+              //   document
+              //     .getElementById("about")
+              //     ?.scrollIntoView({ behavior: "smooth" });
+              //   setNavVisible(false);
+              // }}
             >
               About Us
             </button>
           </div>
           <div>
             <button
-              className="hover:text-accentColor transition-all scale-100 hover:scale-105 font-bold underline"
-              onClick={(e) => {
-                document
-                  .getElementById("reshaping")
-                  ?.scrollIntoView({ behavior: "smooth" });
-                setNavVisible(false);
-              }}
+              className="hover:text-accentColor hover:bg-primaryColor hover:border-4 hover:border-accentColor transition-all font-bold rounded-2xl bg-accentColor text-backgroundColor w-60 h-16"
+              // onClick={(e) => {
+              //   document
+              //     .getElementById("reshaping")
+              //     ?.scrollIntoView({ behavior: "smooth" });
+              //   setNavVisible(false);
+              // }}
             >
               Be Our Providers
             </button>

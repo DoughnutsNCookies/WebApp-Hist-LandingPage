@@ -3,8 +3,8 @@ import Image from 'next/image'
 const Tagline = () => {
     return (
         <section id="tagline">
-            <div className="h-screen bg-[#a7d9dd] flex flex-col items-start p-24 justify-center gap-y-20">
-                <div className="text-9xl font-playfair flex flex-col tracking-tight text-accentColor">
+            <div className="h-screen bg-[#A7D9DD] flex flex-col items-start p-24 justify-center gap-y-20">
+                <div className="text-9xl font-playfair flex flex-col tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-[#DB1E1A] to-accentColor" >
                     <h1>Connecting Users</h1>
                     <h1>with</h1>
                     <h1>Providers</h1>
