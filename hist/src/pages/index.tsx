@@ -1,5 +1,6 @@
 import Head from "next/head";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import Tagline from "./index/Tagline";
 import Problem from "./index/Problem";
 import Understand from "./index/Understand";
@@ -39,6 +40,7 @@ export default function Home() {
       <Mobile/>
       <Interest/>
       <FAQ/>
+      <Footer/>
     </main>
   )
 }
