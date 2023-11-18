@@ -4,7 +4,7 @@ const Mobile = () => {
     return (
         <section id="mobile">
             <div className="flex flex-col justify-center gap-y-6 items-center bg-white">
-                <h1 className="font-playfair font-bold text-9xl text-[#46CCF6] pb-4">Just 4 steps</h1>
+                <h1 className="font-playfair font-bold text-9xl tracking-tighter text-[#46CCF6] pb-4">Just 4 steps</h1>
                 <div className="h-[100vh] w-full flex flex-row justify-between bg-[#46CCF6] px-20 py-10">
                     <MobileUpper
                         step={"01"}
@@ -86,7 +86,7 @@ const MobileLower = (props: MobileLowerProps) => {
                 className="h-[80vh] w-[25vw]"
                 priority
             />
-            <h1 className="text-backgroundColor font-playfair text-4xl text-center">
+            <h1 className="text-backgroundColor tracking-tighter font-playfair text-4xl text-center">
                 <strong className="text-8xl font-bold pr-4">{step}</strong>
                 {title}
             </h1>
