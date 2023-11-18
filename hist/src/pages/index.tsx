@@ -1,6 +1,7 @@
 import Head from "next/head";
 import NavBar from "./components/NavBar";
 import Tagline from "./index/Tagline";
+import Problem from "./index/Problem";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
       </Head>
       <NavBar/>
       <Tagline/>
+      <Problem/>
     </main>
   )
 }
